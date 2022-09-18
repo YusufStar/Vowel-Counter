@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+}
+
+textarea {
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    box-shadow: 1px 3px black;
+    transition: 0.5s linear;
+}
+
+button:hover {
+    color: black;
+    background-color: bisque;
+}
+
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
